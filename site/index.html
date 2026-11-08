@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="See who actually shapes care — Madrigal Influence Intelligence finds the physicians who shape patient care — not just the ones who prescribe the most — using referral-network centrality across a nationwide claims graph."
+    />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#14161c" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/svg+xml" href="/madrigal-influence-demo/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+    />
+    <title>Madrigal · Physician Influence Intelligence</title>
+    <!--
+      Applied before first paint so a dark-mode user never sees a white flash
+      while React boots. A separate file rather than an inline script so the
+      server's Content-Security-Policy can stay at script-src 'self' with no
+      'unsafe-inline' escape hatch.
+    -->
+    <script src="/madrigal-influence-demo/theme-boot.js"></script>
+    <script type="module" crossorigin src="/madrigal-influence-demo/assets/index-CIAxNU0f.js"></script>
+    <link rel="modulepreload" crossorigin href="/madrigal-influence-demo/assets/react-DPjJwf8W.js">
+    <link rel="stylesheet" crossorigin href="/madrigal-influence-demo/assets/index-BEPYAWfg.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      This application renders an interactive national physician-referral network and requires
+      JavaScript.
+    </noscript>
+  </body>
+</html>
