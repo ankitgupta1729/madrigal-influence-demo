@@ -1,0 +1,12 @@
+# Madrigal Physician Influence Intelligence -- public demo (compiled static site + synthetic data only).
+# Deploy: Deploy -> Static. "Run" in the workspace previews the same files.
+modules = ["nodejs-20"]
+run = "npx --yes serve@14.2.4 replit-site -l 3000"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[deployment]
+deploymentTarget = "static"
+publicDir = "replit-site"
